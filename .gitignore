@@ -5,35 +5,26 @@
 .terraform.lock.hcl
 terraform.tfvars
 *.auto.tfvars
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraformrc
-terraform.rc
 
 # AWS
 .aws/
 *.pem
 *.key
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-Thumbs.db
-.DS_Store
-Desktop.ini
+# Evidence (too large for Git)
+evidence/*.json
+evidence/screenshots/
 
 # Sensitive
 secrets/
 *.secret
-*.password
 credentials
-tfplan
-*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 .claude/settings.local.json

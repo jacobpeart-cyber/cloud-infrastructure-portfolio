@@ -1,0 +1,34 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:298393324887:loadbalancer/app/cloud-portfolio-dev-alb/6f936636eca84c08",
+            "DNSName": "cloud-portfolio-dev-alb-1314858601.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2025-11-27T18:23:32.820000+00:00",
+            "LoadBalancerName": "cloud-portfolio-dev-alb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-02fbf198865b54295",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-088897741ce7dd0c1",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-0b616838f21cc364b",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0c0542dce02baad53"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        }
+    ]
+}

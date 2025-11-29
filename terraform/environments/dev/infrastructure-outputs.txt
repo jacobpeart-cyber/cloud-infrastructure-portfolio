@@ -1,0 +1,52 @@
+alb_dns_name = "cloud-portfolio-dev-alb-1314858601.us-east-1.elb.amazonaws.com"
+alb_security_group_id = "sg-0c0542dce02baad53"
+alb_url = "http://cloud-portfolio-dev-alb-1314858601.us-east-1.elb.amazonaws.com"
+all_security_group_ids = {
+  "alb" = "sg-0c0542dce02baad53"
+  "application" = "sg-0bd6ac230a3a817a5"
+  "database" = "sg-042031d2056cef0a8"
+  "elasticache" = "sg-0434c543000d36fa1"
+  "management" = "sg-04513277eb8c9dade"
+}
+application_security_group_id = "sg-0bd6ac230a3a817a5"
+asg_name = "cloud-portfolio-dev-web-asg"
+backup_plan_id = "5f612e60-98ce-44ff-b9fe-910638092bbf"
+backup_vault_arn = "arn:aws:backup:us-east-1:298393324887:backup-vault:cloud-portfolio-dev-backup-vault"
+backup_vault_name = "cloud-portfolio-dev-backup-vault"
+cloudfront_distribution_id = "EEGNBRUORVUNN"
+cloudfront_domain_name = "d3gk6kd8d1vp2t.cloudfront.net"
+cloudfront_url = "https://d3gk6kd8d1vp2t.cloudfront.net"
+cloudwatch_dashboard_url = "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards:name=cloud-portfolio-dev-dashboard"
+database_security_group_id = "sg-042031d2056cef0a8"
+db_secret_arn = <sensitive>
+ecr_repository_name = "cloud-portfolio-dev-app"
+ecr_repository_url = "298393324887.dkr.ecr.us-east-1.amazonaws.com/cloud-portfolio-dev-app"
+github_actions_role_arn = "arn:aws:iam::298393324887:role/cloud-portfolio-github-actions-role"
+internet_gateway_id = "igw-08da08cb254b43fbf"
+lambda_api_processor_arn = "arn:aws:lambda:us-east-1:298393324887:function:cloud-portfolio-dev-api-processor"
+lambda_api_processor_url = "https://m6xxkellljejn4uxi2d4rumfiu0laqet.lambda-url.us-east-1.on.aws/"
+launch_template_id = "lt-09b4e56a20f8cda75"
+management_security_group_id = "sg-04513277eb8c9dade"
+nat_gateway_id = "nat-07028284eb1283677"
+nat_gateway_public_ip = "44.198.22.68"
+private_subnet_ids = [
+  "subnet-02d40ebb9d81672cb",
+  "subnet-08d9f4a05dc2f8622",
+]
+public_subnet_ids = [
+  "subnet-0b616838f21cc364b",
+  "subnet-088897741ce7dd0c1",
+]
+rds_database_name = "cloudportfolio"
+rds_endpoint = <sensitive>
+s3_bucket_domain = "cloud-portfolio-dev-static-g8al5lmt.s3.amazonaws.com"
+s3_bucket_name = "cloud-portfolio-dev-static-g8al5lmt"
+service_discovery_arn = "arn:aws:servicediscovery:us-east-1:298393324887:service/srv-tk36wtks22bi3kfu"
+service_discovery_namespace = "cloud-portfolio.local"
+service_discovery_service_name = "app"
+sns_topic_arn = "arn:aws:sns:us-east-1:298393324887:cloud-portfolio-dev-alarms"
+vpc_cidr = "10.0.0.0/16"
+vpc_id = "vpc-02fbf198865b54295"
+xray_group_name = "cloud-portfolio-dev"
+xray_service_map_url = "https://console.aws.amazon.com/xray/home?region=us-east-1#/service-map"
+xray_traces_url = "https://console.aws.amazon.com/xray/home?region=us-east-1#/traces"

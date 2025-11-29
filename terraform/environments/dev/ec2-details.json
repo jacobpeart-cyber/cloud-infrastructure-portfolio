@@ -1,0 +1,346 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-0443debefa7a507ad",
+            "OwnerId": "298393324887",
+            "RequesterId": "661627717883",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-11-27T18:31:53+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0344d8f15148eba4c"
+                            }
+                        }
+                    ],
+                    "ClientToken": "36366b1a-5808-fed8-bc5a-c12141c480ac",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::298393324887:instance-profile/cloud-portfolio-dev-ec2-profile",
+                        "Id": "AIPAUK6NAZVLSRJ7HLGAB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-11-27T18:31:52+00:00",
+                                "AttachmentId": "eni-attach-0cd7f968f37926f7c",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0bd6ac230a3a817a5",
+                                    "GroupName": "cloud-portfolio-dev-app-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:92:d4:1a:c9:fb",
+                            "NetworkInterfaceId": "eni-0fecb91986093e3bb",
+                            "OwnerId": "298393324887",
+                            "PrivateDnsName": "ip-10-0-11-126.ec2.internal",
+                            "PrivateIpAddress": "10.0.11.126",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-0-11-126.ec2.internal",
+                                    "PrivateIpAddress": "10.0.11.126"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-02d40ebb9d81672cb",
+                            "VpcId": "vpc-02fbf198865b54295",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0bd6ac230a3a817a5",
+                            "GroupName": "cloud-portfolio-dev-app-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-09b4e56a20f8cda75"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "cloud-portfolio-dev-asg-instance"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "cloud-portfolio"
+                        },
+                        {
+                            "Key": "Type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "cloud-portfolio-dev-web-asg"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-11-27T18:31:52+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0e3ddb8f997891769",
+                    "ImageId": "ami-0156001f0548e90b1",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-0-11-126.ec2.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-11-27T18:31:52+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "use1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-02d40ebb9d81672cb",
+                    "VpcId": "vpc-02fbf198865b54295",
+                    "PrivateIpAddress": "10.0.11.126"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-04f4249ab424fa559",
+            "OwnerId": "298393324887",
+            "RequesterId": "661627717883",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-11-27T18:36:01+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0dbfdeef3c948cc99"
+                            }
+                        }
+                    ],
+                    "ClientToken": "33066b1a-672e-6c89-1230-8547f59e1e23",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::298393324887:instance-profile/cloud-portfolio-dev-ec2-profile",
+                        "Id": "AIPAUK6NAZVLSRJ7HLGAB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-11-27T18:36:00+00:00",
+                                "AttachmentId": "eni-attach-0a8effeb4834fb0d2",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0bd6ac230a3a817a5",
+                                    "GroupName": "cloud-portfolio-dev-app-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "12:42:1a:48:69:1b",
+                            "NetworkInterfaceId": "eni-087fd4d70479ec9d9",
+                            "OwnerId": "298393324887",
+                            "PrivateDnsName": "ip-10-0-12-209.ec2.internal",
+                            "PrivateIpAddress": "10.0.12.209",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-0-12-209.ec2.internal",
+                                    "PrivateIpAddress": "10.0.12.209"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08d9f4a05dc2f8622",
+                            "VpcId": "vpc-02fbf198865b54295",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0bd6ac230a3a817a5",
+                            "GroupName": "cloud-portfolio-dev-app-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "cloud-portfolio-dev-asg-instance"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "Project",
+                            "Value": "cloud-portfolio"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "cloud-portfolio-dev-web-asg"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-09b4e56a20f8cda75"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-11-27T18:36:00+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-06d5b78c48a0e7c94",
+                    "ImageId": "ami-0156001f0548e90b1",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-0-12-209.ec2.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-11-27T18:36:00+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "use1-az2",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08d9f4a05dc2f8622",
+                    "VpcId": "vpc-02fbf198865b54295",
+                    "PrivateIpAddress": "10.0.12.209"
+                }
+            ]
+        }
+    ]
+}
