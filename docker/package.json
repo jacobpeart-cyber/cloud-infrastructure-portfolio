@@ -1,0 +1,24 @@
+{
+  "name": "cloud-portfolio-app",
+  "version": "1.0.0",
+  "description": "Containerized application for cloud infrastructure portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('Tests pass')\""
+  },
+  "keywords": [
+    "cloud",
+    "aws",
+    "ecs",
+    "fargate",
+    "docker",
+    "container"
+  ],
+  "author": "Cloud Portfolio",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

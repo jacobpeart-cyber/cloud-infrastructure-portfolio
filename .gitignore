@@ -1,0 +1,39 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Sensitive
+secrets/
+*.secret
+*.password
+credentials
+tfplan
+*.zip
+.claude/settings.local.json
